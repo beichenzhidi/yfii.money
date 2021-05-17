@@ -33,6 +33,7 @@ export default function HeaderLinks(props) {
 
   const tabArr = [
     {value:'',label:t('Nav-Home')},
+    {value:'grant',label:t('Nav-Grant')},
     {value:'vault',label:t('Nav-Vault')},
     // {value:'stake',label:t('Nav-Stake')},
     // {value:'farm',label:t('Nav-Farm')},

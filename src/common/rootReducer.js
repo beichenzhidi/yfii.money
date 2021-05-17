@@ -4,6 +4,7 @@ import { connectRouter } from 'connected-react-router'
 import history from './history';
 import homeReducer from 'features/home/redux/reducer';
 import vaultReducer from 'features/vault/redux/reducer';
+import grantReducer from 'features/grant/redux/reducer';
 import farmReducer from 'features/farm/redux/reducer';
 import swapReducer from 'features/swap/redux/reducer';
 import liquidityReducer from 'features/liquidity/redux/reducer';
@@ -18,6 +19,7 @@ const reducerMap = {
   router: connectRouter(history),
   home: homeReducer,
   vault: vaultReducer,
+  grant: grantReducer,
   // stake: stakeReducer,
   // farm: farmReducer,
   // swap: swapReducer,
